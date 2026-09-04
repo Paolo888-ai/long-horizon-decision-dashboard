@@ -1,0 +1,31 @@
+# JavaScript
+node_modules/
+.pnpm-store/
+.next/
+out/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+
+# Environment and local data
+.env
+.env.*
+!.env.example
+data/raw/
+data/processed/
+apps/api/data/raw/
+apps/api/data/processed/
+*.db
+*.sqlite3
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
